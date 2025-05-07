@@ -9,7 +9,7 @@ eye.addEventListener('click', function() {
 // -> closing eye
 setInterval(function() {
     eye.classList.toggle('closed');
-}, 2000)
+}, 2750)
 
 // -> moving pupil
 window.addEventListener('mousemove', function (event) {

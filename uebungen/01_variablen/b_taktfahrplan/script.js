@@ -10,3 +10,9 @@
 * */
 
 const taktfahrplan_done_year = 2070;
+let birth_year = prompt("In welchem Jahr bist du geboren?");
+
+const age1 = taktfahrplan_done_year - birth_year;
+const age2 = age1 - 1;
+
+console.log("Zum Zeitpunkt der Einführung des Taktfahrplans bist du " + age1 + " oder " + age2 + " Jahre alt.");

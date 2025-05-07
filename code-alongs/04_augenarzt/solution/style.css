@@ -22,18 +22,18 @@ main {
 #eye {
     width: var(--size-eye);
     height: var(--size-eye);
-    background: blue;
+    background: rgb(0, 145, 255);
     border-radius: 9999px;
     position: relative;
     clip-path: ellipse(50% 35% at 50% 50%);
-    transition: clip-path 2000ms ease-out;
+    transition: clip-path 1000ms ease-out;
 }
 #eye.bloody {
-    background: red;
+    background: rgb(147, 0, 192);
 }
 #eye.closed {
-    clip-path: ellipse(50% 0% at 50% 50%);
-    transition-timing-function: ease-in;
+    clip-path: ellipse(50% 1% at 50% 50%);
+    transition-timing-function: ease-in ease-out;
 }
 #pupil {
     width: var(--size-pupil);
@@ -44,7 +44,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    transition: left 333ms ease;
+    transition: left 100ms ease;  
 }
 #pupil.look_right {
     left: 70%;

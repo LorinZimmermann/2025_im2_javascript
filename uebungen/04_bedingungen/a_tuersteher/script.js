@@ -17,3 +17,21 @@
 * diese Anleitung zur Hilfe (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date?retiredLocale=de)
 * oder arbeite mit KI.
 * */
+
+const year = 2025;
+
+let birth_year = prompt("In welchem Jahr bist du geboren?");
+
+const age = year - birth_year;
+
+checkAge(age);
+
+function checkAge(age) {
+    if (age < 16) {
+        console.log("Du bist zu jung um Alkohol zu kaufen.");
+    } else if (age < 18) {
+        console.log("Du bist zu jung für Schnaps.");
+    } else if (age >= 18) {
+        console.log("Yeah, volljährig - kauf was du willst.");
+    }
+}

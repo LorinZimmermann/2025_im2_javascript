@@ -15,3 +15,8 @@ const fahrenheit_in_la = 104;
 // Berechnung St. Gallen
 const degrees_in_stgallen = 33;
 
+const fahrenheit_to_celsius = fahrenheit_in_la - 32;
+const celsius_to_fahrenheit = degrees_in_stgallen + 32;
+
+console.log("In LA waren es " + fahrenheit_in_la + "°F, was " + fahrenheit_to_celsius + "°C entspricht.");
+console.log("In St. Gallen waren es " + degrees_in_stgallen + "°C, was " + celsius_to_fahrenheit + "°F entspricht.");
